@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MBMS.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -28,6 +29,7 @@ namespace MBMS
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
+            services.AddTransient<DataAccess>();
             services.AddMvc();
         }
 

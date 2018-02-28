@@ -176,4 +176,7 @@
 -resource:"D:\WebSource\MBMS\src\MBMS\obj\Debug\netcoreapp1.0\MBMSdotnet-compile.deps.json",MBMS.deps.json
 "D:\WebSource\MBMS\src\MBMS\Program.cs"
 "D:\WebSource\MBMS\src\MBMS\Startup.cs"
+"D:\WebSource\MBMS\src\MBMS\Controllers\UserAPIController.cs"
 "D:\WebSource\MBMS\src\MBMS\Controllers\ValuesController.cs"
+"D:\WebSource\MBMS\src\MBMS\Models\DataAccess.cs"
+"D:\WebSource\MBMS\src\MBMS\Models\User.cs"
